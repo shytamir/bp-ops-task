@@ -1,14 +1,17 @@
 # Readme.MD
 #### How I was made:
-Some text...
+I was written using the Python IDLE development environment with accompanying yaml edited in Notepad++ on a Windows 10 Ultimate client.
+My hosting machine was running docker for windows over a hyper-v local virtual machine using 1GB ram.
 #### What you need before you start:</h4>
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+* Install Python 2.7
+* Setup Docker locally
+  * Remove the Moby virtual machine that comes with docker.
+  * Add a new external virtual switch to allow outbound communication
+  * Setup a new virtual machine using hyper-v as your driver with
 #### How to use me:
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+1. Check me out.
+1. Run Scripts/DeploymentFlow.py using python.
+1. Follow the output
+   1. Successfull output will return a string "Deployment was successfull".
+   1. Unsuccessful output will show the error returned when attempting to contact the health check page. It will also terimnate the process.
+1. When you're done, don't forget to close me!
