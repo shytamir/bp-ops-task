@@ -4,6 +4,7 @@ I was written using the Python IDLE development environment with accompanying ya
 My hosting machine was running npm and docker for windows over a hyper-v local virtual machine using 1GB ram.
 #### What you need before you start:</h4>
 * Install Python 2.7
+* Install NPM
 * Setup Docker locally
   * Remove the Moby virtual machine that comes with docker.
   * Add a new external virtual switch to allow outbound communication.
