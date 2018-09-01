@@ -6,8 +6,8 @@ My hosting machine was running docker for windows over a hyper-v local virtual m
 * Install Python 2.7
 * Setup Docker locally
   * Remove the Moby virtual machine that comes with docker.
-  * Add a new external virtual switch to allow outbound communication
-  * Setup a new virtual machine using hyper-v as your driver with
+  * Add a new external virtual switch to allow outbound communication.
+  * Setup a new virtual machine using hyper-v as your driver with the external virtual switch you've just created as its primary virtual switch.
 #### How to use me:
 1. Check me out.
 1. Run Scripts/DeploymentFlow.py using python.
