@@ -56,6 +56,8 @@ try:
 except requests.exceptions.HTTPError as e:
     # caught an exception - app didn't return 200
     print("Error lodaing application: " + str(e))
+    # we don't need the failed process, we have the error message to indicate the cause
+    process.terminate()
 
 # print a successful deployment message
 print("Deployment was successful")
