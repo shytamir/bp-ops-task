@@ -1,7 +1,14 @@
-<h1>Readme.MD</h1>
-<h4>How I was made:</h4>
-<p>Some text...</p>
-<h4>What you need before you start:</h4>
-<p>Some text...</p>
-<h4>How to use me:</h4>
-<p>Some text...</p>
+#Readme.MD
+####How I was made:
+Some text...
+####What you need before you start:</h4>
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+####How to use me:
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
