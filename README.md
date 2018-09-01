@@ -1,7 +1,7 @@
 # Readme.MD
 #### How I was made:
 I was written using the Python IDLE development environment with accompanying yaml edited in Notepad++ on a Windows 10 Ultimate client.
-My hosting machine was running docker for windows over a hyper-v local virtual machine using 1GB ram.
+My hosting machine was running npm and docker for windows over a hyper-v local virtual machine using 1GB ram.
 #### What you need before you start:</h4>
 * Install Python 2.7
 * Setup Docker locally
