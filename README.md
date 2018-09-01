@@ -14,4 +14,5 @@ My hosting machine was running npm and docker for windows over a hyper-v local v
 1. Follow the output:
    1. Successfull output will return a string "Deployment was successfull".
    1. Unsuccessful output will show the error returned when attempting to contact the health check page. It will also terimnate the process.
+1. A successful deployment means the app is up and running and you can call it in the agreed upon endpoint (http://localhost:3000).
 1. When you're done, don't forget to close me!
